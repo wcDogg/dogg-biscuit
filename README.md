@@ -23,38 +23,44 @@
 
 ## Features
 
-- TODO
+A tech writer's first [Hypermodern Python Cookiecutter](https://github.com/cjolowicz/cookiecutter-hypermodern-python)project.
+
+While `dogg-biscuit` is a real package that you can install & run, [this project is about the documentation](https://dogg-biscuit.readthedocs.io/en/latest/index.html). This doesn't replace Cookiecutter's documentation. It's more like a guide to learning Hypermodern Python on Windows.
 
 ## Requirements
 
-- TODO
+A Cookiecutter package starts with one core dependency:
+
+- [Click](https://click.palletsprojects.com/en/8.1.x/)
 
 ## Installation
 
-You can install _Dogg Biscuit_ via [pip] from [PyPI]:
-
 ```console
-$ pip install dogg-biscuit
+poetry add dogg-biscuit
+
+pipx install dogg-biscuit
+
+python -m pip install dogg-biscuit
 ```
 
 ## Usage
 
-Please see the [Command-line Reference] for details.
+```console
+poetry run dogg-biscuit
+
+```
 
 ## Contributing
 
-Contributions are very welcome.
-To learn more, see the [Contributor Guide].
+Contributions welcome :) See the [Contributor Guide].
 
 ## License
 
-Distributed under the terms of the [MIT license][license],
-_Dogg Biscuit_ is free and open source software.
+Distributed under the terms of the [MIT license][license], _Dogg Biscuit_ is free and open source software.
 
 ## Issues
 
-If you encounter any problems,
-please [file an issue] along with a detailed description.
+If you encounter any problems, please [file an issue].
 
 ## Credits
 
