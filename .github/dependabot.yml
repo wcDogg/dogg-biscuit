@@ -1,0 +1,25 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: "/"
+    target-branch: "dbot"
+    schedule:
+      interval: daily
+  - package-ecosystem: pip
+    directory: "/.github/workflows"
+    target-branch: "dbot"
+    schedule:
+      interval: daily
+  - package-ecosystem: pip
+    directory: "/docs"
+    target-branch: "dbot"
+    schedule:
+      interval: daily
+  - package-ecosystem: pip
+    directory: "/"
+    target-branch: "dbot"
+    schedule:
+      interval: daily
+    versioning-strategy: lockfile-only
+    allow:
+      - dependency-type: "all"
