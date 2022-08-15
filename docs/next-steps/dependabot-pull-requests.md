@@ -1,4 +1,4 @@
-## Dependabot Pull Requests
+# Dependabot Pull Requests
 
 **IMPORTANT:** This topic is a hot mess - I need to learn about resolving GitHub merge conflicts with `poetry.lock`.
 

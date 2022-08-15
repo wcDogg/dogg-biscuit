@@ -34,15 +34,20 @@ See: [External Services](external-services.md)
 - GitHub > Repository > Settings > Secrets > Actions > Add New Repository Secret
 - Add the `PYPI_TOKEN` and `TEST_PYPI_TOKEN` generated when you created these accounts.
 
-## Review the Initial Commit
+## Add Codecov
 
-TODO: Cannot fully test this because I am the doink who locks themselves out of PyPi 2 seconds after creating the account.
+When I installed [Codecov](../environment/external-services.md/#codecov) on my GitHub account, I configured it for specific repositories vs all. 
+
+* GitHub > User menu > Settings > Applications > Codecov > Add repo
+  
+
+## Review the Initial Commit
 
 Go to the repository's Actions tab - there are a series of workflows that were executed when the repo was created.
 
 All workflows should succeed except the Release workflow. This happens because the PyPi tokens weren't available at the time. Now they are and we can rerun the test to confirm.
 
-1. Click the failed workflow's title - "Initial Commit".
+1. Click the failed workflow's title - 'Initial Commit'.
 2. In the left panel, hover over the Release job and click its re-run icon.
 3. Review the message and click Re-run Jobs.
 4. Wait for tests to complete - all jobs should pass.

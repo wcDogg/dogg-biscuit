@@ -4,15 +4,14 @@ Tools like Nox run tests against multiple versions of Python. Here's how to use 
 
 ## Existing Python?
 
-There's a good chance you already have Python installed at the user level. Check:
+There's a good chance you already have Python installed. Check:
 
 - Start > Settings > Apps > Apps & Features
 
-In the next step we'll be using `pyenv-win` to install and manage multiple versions of Python.
+Python listed here is installed at the user level. It may have been installed via the Microsoft Store or Python.org. Note it does not display the Python 2 instance used by the Windows OS. 
 
-- You do not need to have Python already installed.
-- In fact, you should uninstall existing Python installed at the user level.
-- Note this means Python that appears in Apps & Features - it does not mean the Python 2 instance Windows OS uses, which is not listed here.
+Uninstall all Python listed here and restart your computer. In the next step we'll be using `pyenv-win` to install and manage multiple versions of Python. 
+
 
 ## Disable Python Launchers
 

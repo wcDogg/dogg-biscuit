@@ -1,6 +1,6 @@
 # Generate a Cookiecutter Project
 
-This topic covers how to generate a Cookiecutter project and initialize its Git repository. Before completing these steps, see [External Services](external-services.md).
+This topic covers how to generate a Cookiecutter project and initialize its Git repository. Before completing these steps, see [External Services](../environment/external-services.md).
 
 ## Project Names
 

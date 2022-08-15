@@ -36,7 +36,3 @@ At some point you'll close PowerShell and exit Poetry. To get back, `cd` to the 
 ```powershell
 poetry shell
 ```
-
-## ?? Do Not use `poetry update`!
-
-At some point, Poetry will warn about available module updates. Do not run `poetry update`. Instead, we'll be relying on Dependabot + Pull Requests to keep things updated.

@@ -29,15 +29,17 @@ Once you have created a project + its GitHub repository:
 - [Sign up using GitHub account](https://codecov.io/).
 - Skip the initial 'Which repo are you working with?'.
 - Install the [Codecov GitHub App](https://github.com/apps/codecov).
-- Then click the Configure button - this takes you to your GitHub account > Applications. Review the screen and click Save.
-- Go to the [Codecov app](https://app.codecov.io/)
-- At the dashboard, select View Repos for Setup.
-- Locate the repo + click its 'setup repo' link.
-- TODO: Copy the repo-specific `CODECOV_TOKEN' JIK - what do we do with this?
+- Then click the Configure button - this takes you to your GitHub account > Applications. 
+- Review the screen and click Save. Here I set Codecov for specific apps.
+- This means moving forward I will have to add repos here manually. 
+
 
 ## Read the Docs
 
 - Create + verify your [Read the Docs](https://readthedocs.org) account.
 - After verifying, use the Connect with GitHub option.
+
+Once you have created a project + its GitHub repository:
+
 - On the dashboard, import a project + initialize the first build.
 - From here it becomes automatic.

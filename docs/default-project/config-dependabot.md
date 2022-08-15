@@ -58,7 +58,7 @@ It's common for changes to happen on `main` while working on another branch. Typ
 
 ```powershell
 # Switch to the dbot branch
-git checkout dbot
+git switch dbot
 
 # Merge + push
 git merge main -m "Update from main"

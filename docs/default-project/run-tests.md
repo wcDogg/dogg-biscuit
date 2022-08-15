@@ -37,7 +37,7 @@ nox --session=tests -- -m trace --trace
 
 ## Python Versions
 
-Nox runs tests against multiple versions of Python. I use [pyenv-win](install-python.md) to manage multiple versions. Before running Nox, run the command below to make the needed versions available in the current directory. This must be done once per Poetry session.
+Nox runs tests against multiple versions of Python. I use [pyenv-win](../environment/install-python.md) to manage multiple versions. Before running Nox, run the command below to make the needed versions available in the current directory. This must be done once per Poetry session.
 
 ```powershell
 pyenv local 3.7.9 3.8.10 3.9.13 3.10.6
@@ -63,14 +63,13 @@ nox -s pre-commit
 
 **IMPORTANT:** Each time you run Nox, black and other tools may modify files - this is clearly indicated in the console. Before testing again, you must commit the changes.
 
-If using VS Code, run the following, then click `Synch Changes` in the Source Control panel.
-
 ```powershell
 git add .
 git commit -m "Message"
+git push # Check this is required? Seems wasteful.
 ```
 
-## Run all the Tests
+## Run All Tests
 
 Keep repeating this process until you've cleared the pre-commit test. Then run each test one-by-one. Once you're familiar with the tests and have the kinks worked out, you can switch to running all tests.
 

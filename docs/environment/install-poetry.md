@@ -12,7 +12,7 @@
 
 The documentation is a muddle. What ultimately worked for me was:
 
-1. Download this file as `install-poetry.py` to an easy location: https://install.python-poetry.org/.
+1. Download this file as `install-poetry.py` to an easy location: [install.python-poetry.org](https://install.python-poetry.org/).
 2. In PowerShell:
 
 ```powershell
