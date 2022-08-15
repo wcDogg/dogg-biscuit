@@ -2,7 +2,6 @@
 
 This information is auto-generated from a project's code and docstrings.
 
-
 ```{eval-rst}
 .. automodule:: dogg_biscuit
    :members:

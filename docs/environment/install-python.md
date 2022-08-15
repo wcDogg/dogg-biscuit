@@ -8,10 +8,9 @@ There's a good chance you already have Python installed. Check:
 
 - Start > Settings > Apps > Apps & Features
 
-Python listed here is installed at the user level. It may have been installed via the Microsoft Store or Python.org. Note it does not display the Python 2 instance used by the Windows OS. 
+Python listed here is installed at the user level. It may have been installed via the Microsoft Store or Python.org. Note it does not display the Python 2 instance used by the Windows OS.
 
-Uninstall all Python listed here and restart your computer. In the next step we'll be using `pyenv-win` to install and manage multiple versions of Python. 
-
+Uninstall all Python listed here and restart your computer. In the next step we'll be using `pyenv-win` to install and manage multiple versions of Python.
 
 ## Disable Python Launchers
 

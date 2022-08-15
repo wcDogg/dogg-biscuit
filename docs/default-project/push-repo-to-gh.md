@@ -36,10 +36,9 @@ See: [External Services](external-services.md)
 
 ## Add Codecov
 
-When I installed [Codecov](../environment/external-services.md/#codecov) on my GitHub account, I configured it for specific repositories vs all. 
+When I installed [Codecov](../environment/external-services.md/#codecov) on my GitHub account, I configured it for specific repositories vs all.
 
-* GitHub > User menu > Settings > Applications > Codecov > Add repo
-  
+- GitHub > User menu > Settings > Applications > Codecov > Add repo
 
 ## Review the Initial Commit
 

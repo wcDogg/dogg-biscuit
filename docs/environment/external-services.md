@@ -29,10 +29,9 @@ Once you have created a project + its GitHub repository:
 - [Sign up using GitHub account](https://codecov.io/).
 - Skip the initial 'Which repo are you working with?'.
 - Install the [Codecov GitHub App](https://github.com/apps/codecov).
-- Then click the Configure button - this takes you to your GitHub account > Applications. 
+- Then click the Configure button - this takes you to your GitHub account > Applications.
 - Review the screen and click Save. Here I set Codecov for specific apps.
-- This means moving forward I will have to add repos here manually. 
-
+- This means moving forward I will have to add repos here manually.
 
 ## Read the Docs
 
