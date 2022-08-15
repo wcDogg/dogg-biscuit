@@ -1,0 +1,14 @@
+{
+  "_output_dir": "D:\\GitHub",
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "wcDogg",
+  "copyright_year": "2022",
+  "development_status": "Development Status :: 1 - Planning",
+  "email": "wcDogg@users.noreply.github.com",
+  "friendly_name": "Dogg Biscuit",
+  "github_user": "wcDogg",
+  "license": "MIT",
+  "package_name": "dogg_biscuit",
+  "project_name": "dogg-biscuit",
+  "version": "0.0.0"
+}
